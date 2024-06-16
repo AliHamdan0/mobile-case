@@ -40,7 +40,7 @@ export const ourFileRouter = {
       //     },
       //   });
 
-      return { configId: "ssdasda" };
+      return { configId: configId };
       // }
     }),
 } satisfies FileRouter;
