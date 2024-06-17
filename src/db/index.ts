@@ -1,5 +1,6 @@
 import { PrismaClient } from "@prisma/client";
 
+///this file just to prevent making too many connections in dev environment
 declare global {
   var cachedPrisma: PrismaClient;
 }
