@@ -300,7 +300,7 @@ const DesignConfigurator = ({ configId, imageUrl, imageDimensions }: DesignConfi
             <div className="w-full flex gap-6 items-center">
               <p className="font-medium whitespace-nowrap">{formatPrice((BASE_PRICE + options.finish.price + options.material.price) / 100)}</p>
               <Button
-                // isLoading={isPending}
+                isLoading={isPending}
                 disabled={isPending}
                 loadingText="Saving"
                 onClick={() =>
