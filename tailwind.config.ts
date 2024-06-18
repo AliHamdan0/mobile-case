@@ -54,17 +54,17 @@ const config = {
         sm: "calc(var(--radius) - 4px)",
       },
       keyframes: {
-        marquee: {
-          "100%": {
-            transform: "translateY(-50%)",
-          },
-        },
         "fade-in": {
           from: {
             opacity: "0",
           },
           to: {
             opacity: "1",
+          },
+        },
+        marquee: {
+          "100%": {
+            transform: "translateY(-50%)",
           },
         },
         flashing: {
